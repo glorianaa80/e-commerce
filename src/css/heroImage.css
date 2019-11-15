@@ -1,5 +1,5 @@
 .heroImage {
-  background:  transparent url('../img/heroImage.jpg') no-repeat;
+  background:  transparent url('../img/heroImage-mobile1.jpg') no-repeat;
   height: 509px;
   width: 100%;
 }
@@ -33,4 +33,27 @@
 
 .title {
   margin: 0;
+}
+
+
+/* Medias */
+@media (min-width: 375px) {
+  .heroImage {
+    background:  transparent url('../img/heroImage-mobile2.jpg') no-repeat;
+    height: 607px;
+  }
+}
+
+@media (min-width: 414px) {
+  .heroImage {
+    background:  transparent url('../img/heroImage-mobile3.jpg') no-repeat;
+    height: 676px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heroImage {
+    background:  transparent url('../img/heroImage-tablet.jpg') no-repeat;
+    height: 965px;
+  }
 }

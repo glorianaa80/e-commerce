@@ -8,13 +8,9 @@
   justify-content: space-around;
 }
 
-.nav__img {
-  padding: 7px 0 0 5px;
-}
-
 .nav-link {
   color: #000000;
-  font-family:'Libre Franklin', sans-serif; ;
+  font-family:'Libre Franklin', sans-serif;
   font-size: 20px;
   text-decoration: none;
 }
@@ -30,4 +26,27 @@
   position: relative;
   text-align: center;
   width: 20px;
+}
+
+
+
+/* Medias */
+@media (min-width: 768px) {
+  .image-shop {
+    width: 32px;
+  }
+
+  .nav {
+    padding: 40px 0 20px 0;
+  }
+
+  .nav-link {
+    font-size: 25px;
+  }
+
+  .value-products {
+    font-size: 22px;
+    height: 30px;
+    width: 30px;
+  }
 }

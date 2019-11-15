@@ -16,7 +16,7 @@ export default () => {
         </h1>
       </div>
       <div className="wapper">
-        <img className="deco__img" src={ImgDeco} alt="" aria-hidden="true" />
+        <span className="deco-img">Disco con cara de mujer afroamericana</span>
           <select className="select select-price" name="Price">
             <option value="Hide">Price</option>
             <option value="Cheap">Cheap</option>

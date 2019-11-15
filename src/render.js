@@ -11,14 +11,12 @@ class CardDisc extends React.Component {
       cardTitle : [],
       textSearch : ''
     }
-    console.log(data)
     this.filtrado = this.filtrado.bind(this);
   }
 
 
   filtrado(e) {
     const text = e.target.value;
-    console.log(text)
     const newData = data.filter(function (item) {
       const itemData = item.title.toUpperCase()
       const textData = text.toUpperCase()
@@ -33,7 +31,6 @@ class CardDisc extends React.Component {
 
   render() {
     const arrayMatch = this.state.cardTitle;
-    console.log(arrayMatch);
     const arrayAll = data;
     return(
       <div>
