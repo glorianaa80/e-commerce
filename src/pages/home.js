@@ -15,20 +15,20 @@ export default () => {
           <span className="header__title-vinals">Vinals</span>
         </h1>
       </div>
-      <div className="wapper-select">
-        <img className="deco__img" src={ImgDeco} alt="" aria-hidden="true"/>
-        <select className="select" name="Price">
-          <option value="Hide">Price</option>
-          <option value="Cheap">Cheap</option>
-          <option value="Expensive">Expensive</option>
-        </select>
-        <select className="select" name="Artist">
-          <option value="Hide">Artist</option>
-          <option value="Queen">Queen</option>
-          <option value="The-Rolling-Stone">The Rolling Stone</option>
-          <option value="Pink-Floyd">Pink Floyd</option>
-          <option value="The-Beatles">The Beatles</option>
-        </select>
+      <div className="wapper">
+        <img className="deco__img" src={ImgDeco} alt="" aria-hidden="true" />
+          <select className="select select-price" name="Price">
+            <option value="Hide">Price</option>
+            <option value="Cheap">Cheap</option>
+            <option value="Expensive">Expensive</option>
+          </select>
+          <select className="select select-artist" name="Artist">
+            <option value="Hide">Artist</option>
+            <option value="Queen">Queen</option>
+            <option value="The-Rolling-Stone">The Rolling Stone</option>
+            <option value="Pink-Floyd">Pink Floyd</option>
+            <option value="The-Beatles">The Beatles</option>
+          </select>
       </div>
       <CardDisc />
     </div>

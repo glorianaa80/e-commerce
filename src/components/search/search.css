@@ -11,6 +11,12 @@ form {
   text-align: center;
 }
 
+.input__img {
+  position: relative;
+  right: 40px;
+  top: 4px;
+}
+
 .search {
   background-color: transparent;
   border: 1px solid #F4A026;
@@ -18,4 +24,9 @@ form {
   font-size: 16px;
   margin:20px 10px 15px 10px;
   padding: 5px;
+  width: 128px;
+}
+
+.search::-webkit-input-placeholder {
+  color: #F4A026;
 }

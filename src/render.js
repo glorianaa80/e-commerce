@@ -5,40 +5,42 @@ import json from './json/data.json';
 const data = json.products;
 
 class CardDisc extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      cardName : [],
+      cardTitle : [],
       textSearch : ''
     }
+    console.log(data)
     this.filtrado = this.filtrado.bind(this);
   }
 
 
   filtrado(e) {
     const text = e.target.value;
+    console.log(text)
     const newData = data.filter(function (item) {
-      const itemData = item.name.toUpperCase()
+      const itemData = item.title.toUpperCase()
       const textData = text.toUpperCase()
       return itemData.indexOf(textData) > -1
     })
 
     this.setState({
-      cardName: newData,
+      cardTitle: newData,
       textSearch: text,
     })
   }
 
   render() {
-    const arrayMatch = this.state.cardName;
-    const arrayAll = data
+    const arrayMatch = this.state.cardTitle;
+    console.log(arrayMatch);
+    const arrayAll = data;
     return(
       <div>
         <Search value={this.state.text} onChange={this.filtrado} />
         {
-          arrayMatch.length ? arrayMatch.map(c => 
-          <Card  card={c} />) : 
-          arrayAll.map(c => <Card key={c}  products={c} />)
+          arrayMatch.length ? arrayMatch.map(c => <Card  product={c} />) : 
+          arrayAll.map(c => <Card product={c} />)
         }
       </div>
     )
@@ -46,5 +48,3 @@ class CardDisc extends React.Component {
 }
 
 export default CardDisc;
-
-
