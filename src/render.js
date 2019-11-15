@@ -7,12 +7,10 @@ const data = json.products;
 class CardDisc extends React.Component {
   constructor() {
     super();
-    // this.products = props.products;
     this.state = {
       cardName : [],
       textSearch : ''
     }
-    console.log(data)
     this.filtrado = this.filtrado.bind(this);
   }
 

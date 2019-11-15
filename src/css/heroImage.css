@@ -1,0 +1,36 @@
+.heroImage {
+  background:  transparent url('../img/heroImage.jpg') no-repeat;
+  height: 509px;
+  width: 100%;
+}
+
+.header__title-magas {
+  background: transparent url('../img/Maga’s-mobile.png') no-repeat;
+  display: inline-block;
+  left: 21px;
+  margin: 0; 
+  overflow: hidden;
+  position: relative;
+  text-indent: 100%;
+  top: 25px;
+  width: 40%;
+  white-space: nowrap;
+
+}
+
+.header__title-vinals {
+  background: transparent url('../img/Vinals-mobile.png') no-repeat;
+  display: inline-block;
+  margin: 0; 
+  left: -78px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 100%;
+  top: 65px;
+  width: 30%;
+  white-space: nowrap;
+}
+
+.title {
+  margin: 0;
+}

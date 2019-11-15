@@ -1,0 +1,15 @@
+.deco__img {
+  padding: 7px 0 5px 5px;
+}
+
+.select {
+  align-self: center;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
+
+.wapper-select {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

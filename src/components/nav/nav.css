@@ -1,0 +1,32 @@
+.image-shop {
+  width: 25px;
+}
+
+.nav {
+  padding: 20px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__img {
+  padding: 7px 0 0 5px;
+}
+
+.nav-link {
+  color: #000000;
+  font-family:'Libre Franklin', sans-serif; ;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.value-products {
+  background-color: #F4A026;
+  border-radius: 50%;
+  color: #000000;
+  display: inline-block;
+  height: 20px;
+  left: -10px;
+  position: relative;
+  text-align: center;
+  width: 20px;
+}
