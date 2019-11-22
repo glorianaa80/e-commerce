@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/home';
 import Check from './pages/chek';
-import './css/heroImage.css'
 
 
 function App() {

@@ -3,13 +3,13 @@
     {
       "artist": "The Rolling Stones",
       "category": "Vinils Disc - Eagle R4ock",
-      "side-1": [
+      "side1": [
         "(I Can't Get No) Satisfaction",
         "Let’s Spend The Night Together",
         "Flip The Switch",
         "Gimme Shelter"
       ],
-      "side-2": [
+      "side2": [
         "Anybody Seen My Baby?",
         "Paint It Black",
         "Saint Of Me",
@@ -21,15 +21,16 @@
         "Always innovative, Bridges To Babylon was a tour of novelties: the first time the band hit the road with a permanent B stage, and also the first time fans could vote on the band's website for a song that They wanted to hear at the show - Memory Motel in the case of Bremen fans."
       ],
       "id": 1,
+      "indice" : 0,
       "price": 52.99,
-      "release date": "21 Jun 2019",
+      "date": "21 Jun 2019",
       "title": "Bridges to Bremen 3LP",
       "image": "https://i.imgur.com/DWSC9z3.jpg"
     },
     {
       "artist": "Queen",
       "category": "Vinils Disc - Rock",
-      "side-1": [
+      "side1": [
         "Mustapha",
         "Fat Bottomed Girls",
         "Jealousy",
@@ -37,7 +38,7 @@
         "If You Can't Beat Them",
         "Let Me Entertain You"
       ],
-      "side-2": [
+      "side2": [
         "Dead On Time",
         "In Only Seven Days",
         "Dreamer's Ball",
@@ -51,22 +52,23 @@
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
       "id": 2,
+      "indice" : 1,
       "price": 36.99,
-      "release date": "10 November 1978",
+      "date": "10 November 1978",
       "title": "Jazz",
       "image": "https://images-na.ssl-images-amazon.com/images/I/910MMMUg7sL._SL1400_.jpg"
     },
     {
       "artist": "Pink Floyd",
       "category": "Vinils Disc - Eagle Rock",
-      "side-1": [
+      "side1": [
         "Cluster One",
         "What Do You Want from Me? ",
         "Poles Apart",
         "Marooned",
         "A Great Day For Freedom"
       ],
-      "side-2": [
+      "side2": [
         "Wearing the Inside Out",
         "Take It Back",
         "Coming Back to Life",
@@ -80,15 +82,16 @@
         "Composed mostly by guitarist David Gilmour and keyboardist Richard Wright, the central theme of the album is communication between people, or lack thereof, accompanied by other related topics such as isolation, ambiguity, confrontation or self defense."
       ],
       "id": 3,
+      "indice" : 2,
       "price": 25.99,
-      "release date": "28 March 1994",
+      "date": "28 March 1994",
       "title": "The Division Bell",
       "image": "https://images-na.ssl-images-amazon.com/images/I/91LumyzWFGL._SL1500_.jpg"
     },
     {
       "artist": "The Beatles",
       "category": "Vinils Disc - Eagle Rock",
-      "side-1": [
+      "side1": [
         "A Hard Day’s Night",
         "Tell Me Why",
         "I’ll Cry Instead",
@@ -96,7 +99,7 @@
         "I’m Happy Just to Dance with You",
         "And I Love Her"
       ],
-      "side-2": [
+      "side2": [
         "I Should Have Known Better",
         "If I Fell",
         "And I Love Her",
@@ -109,21 +112,22 @@
         "The album, although showing the development of the talents of the group's composers, maintained the structure of songs and instrumentation of basic rock and roll. It was the first album of the group to contain only original compositions and the only one in which the musical catalog was signed entirely by Lennon-McCartney. Normally, Paul McCartney and John Lennon contribute equally with their songs in the making of each album of The Beatles, but in A Hard Day's Night Lennon's authorship in the composition of the songs was predominant, being responsible for the majority of the thirteen songs that were presented on this album."
       ],
       "id": 4,
+      "indice" : 3,
       "price": 50.99,
-      "release date": "10 July 1964",
+      "date": "10 July 1964",
       "title": "A Hard Day’s Night",
       "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/09/17/17/7.-a-hard-days-night.jpg"
     },
     {
       "artist": "Queen",
       "category": "Vinils Disc - Rock",
-      "side-1": [
+      "side1": [
         "Radio Ga Ga",
         "Tear It Up",
         "It's A Hard Life",
         "Man On The Prowl"
       ],
-      "side-2": [
+      "side2": [
         "Machines (Or Back To Humans)",
         "I Want To Break Free",
         "Keep Passing The Open Windows",
@@ -136,15 +140,16 @@
         "Many of Queen's favorite tracks were released in this period, including 'Radio Gaga' (the theme from which Lady Gaga got her name), 'I Want To Break Free' (accompanied by the famous video where transvestites parodied Coronation Street and that the MTV banned in the US), 'One Vision', 'A Kind of Magic', 'I Want It All', 'The Miracle' and 'These Are The Days of Our Lives' (which includes the unforgettable last appearance of Freddie on video)."
       ],
       "id": 5,
+      "indice" : 4,
       "price": 41.99,
-      "release date": "27 Febrary 1984",
+      "date": "27 Febrary 1984",
       "title": "The Works",
       "image": "https://xn--rckn8au6k165rwj1cfa5765c2d3a.com/blog/wp-content/uploads/2018/12/queen-the-works.jpg"
     },
     {
       "artist": "The Rolling Stones",
       "category": "Vinils Disc - Rock",
-      "side-1": [
+      "side1": [
         "Start Me Up",
         "Brown Sugar",
         "Rocks Off",
@@ -154,7 +159,7 @@
         "Wild Horses",
         "Fool To Cry"
       ],
-      "side-2": [
+      "side2": [
         "Angie",
         "Beast Of Burden",
         "Hot Stuff",
@@ -170,34 +175,37 @@
       ],
       "id": 6,
       "price": 51.99,
-      "release date": "19 April 2019",
+      "indice" : 5,
+      "date": "19 April 2019",
       "title": "Honk",
       "image": "https://i.imgur.com/EmHFZR8.jpg"
     },
     {
       "artist": "Pink Floyd",
       "category": "Vinils Disc - Eagle Rock",
-      "side-1": [
+      "side1": [
         "Shine On You Crazy Diamond(Parts I-V)",
         "Welcome to the Machine",
         "Have a Cigar",
         "Wish You Were Here",
         "Shine On You Crazy Diamond(Parts VI-IX)"
       ],
+      "side2": ["No tiene canciones"],
       "code": 762571,
       "description": [
         "It is the second Pink Floyd album to use a conceptual theme written entirely by Waters, and evokes his feeling that the camaraderie that had once been felt among the band members, had long been absent. instrumental introduction of eight and a half minutes, before starting with &#34;Shine On You Crazy Diamond&#34;. This is a tribute to the former band member Syd Barrett, forced to leave the band due to a nervous breakdown due to drug use that caused him mental problems a few years earlier."
       ],
       "id": 7,
+      "indice" : 6,
       "price": 30.99,
-      "release date": "12 September 1975",
+      "date": "12 September 1975",
       "title": "Wish You Were Here",
       "image": "https://cdn.shopify.com/s/files/1/0969/9128/products/Pink_Floyd_-_Wish_You_Were_Here_-_Album_Cover_Art_-_Rock_Music_Poster_Collection_e57c5fbe-8141-4084-a2e5-5625e86b2fd2.jpg?v=1550058601"
     },
     {
       "artist": "Queen",
       "category": "Collectibles - Rock",
-      "side-1": [
+      "side1": [
         "We Will Rock You",
         "We Are The Champions",
         "Sheer Heart Attack",
@@ -205,7 +213,7 @@
         "Spread Your Wings",
         "Fight From The Inside"
       ],
-      "side-2": [
+      "side2": [
         "Get Down, Make Love",
         "Sleeping On The Sidewalk",
         "Who Needs You",
@@ -218,6 +226,7 @@
         "Another outstanding feature of this heavy 40th anniversary box is a new pure analog cut of the original vinyl LP, directly from the non-mastered analog master mix tapes. There is also a rich selection of NOTW-related memories that include three posters and a 60-page picture book, mostly never seen before."
       ],
       "id": 8,
+      "indice" : 7,
       "price": 145.00,
       "release-date": "28 October 1977",
       "title": "News of the World",
@@ -226,13 +235,13 @@
     {
       "artist": "Queen",
       "category": "Vinils Disc - Rock",
-      "side-1": [
+      "side1": [
         "Keep Yourself Alive",
         "Doing Alright",
         "Great King Rat",
         "My Fairy King"
       ],
-      "side-2": [
+      "side2": [
         "Liar",
         "The Night Comes Down",
         "Modern Times Rock'n'Roll",
@@ -245,22 +254,23 @@
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
       "id": 9,
+      "indice" : 8,
       "price": 30.99,
-      "release date": "12 July 1973",
+      "date": "12 July 1973",
       "title": "Queen",
       "image": "https://rockntipo.com/26866/18618.jpg"
     },
     {
       "artist": "Pink Floyd",
       "category": "Vinils Disc - Eagle Rock",
-      "side-1": [
+      "side1": [
         "One of These Days",
         "A Pillow of Winds",
         "Fearless",
         "San Tropez",
         "Seamus"
       ],
-      "side-2": [
+      "side2": [
         "Echoes"
       ],
       "code": 7954802,
@@ -269,22 +279,23 @@
         "It was recorded and produced from January to August 1971 among the obligations of the tours. The reviews of music critics were relatively good for this work. The disc was a commercial success in the United Kingdom, however, in the USA. The mediocre publicity of his American distributor led him to be a sales failure in that country."
       ],
       "id": 10,
+      "indice" : 9,
       "price": 35.99,
-      "release date": "31 October 1971",
+      "date": "31 October 1971",
       "title": "Meddle",
       "image": "https://images-na.ssl-images-amazon.com/images/I/81hBOBD242L._SL1500_.jpg"
     },
     {
       "artist": "Queen",
       "category": "Vinils Disc - Rock",
-      "side-1": [
+      "side1": [
         "Staying Power",
         "Dancer",
         "Back Chat",
         "Body Language",
         "Action This Day"
       ],
-      "side-2": [
+      "side2": [
         "Put Out The Fire",
         "Life Is Real (Song For Lennon)",
         "Calling All Girls",
@@ -297,8 +308,9 @@
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
       "id": 11,
+      "indice" : 10,
       "price": 36.99,
-      "release date": "21 May 1982",
+      "date": "21 May 1982",
       "title": "Hot Space",
       "image": "https://cdn.vox-cdn.com/thumbor/0c6Ia8IW4Y2gm2FDstJgpukBGec=/0x0:945x945/920x0/filters:focal(0x0:945x945):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13355399/hot_space.jpg"
     }

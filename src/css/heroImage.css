@@ -1,6 +1,6 @@
 .heroImage {
   background:  transparent url('../img/heroImage-mobile1.jpg') no-repeat;
-  height: 509px;
+  height: 568px;
   width: 100%;
 }
 
@@ -40,20 +40,20 @@
 @media (min-width: 375px) {
   .heroImage {
     background:  transparent url('../img/heroImage-mobile2.jpg') no-repeat;
-    height: 607px;
+    height: 667px;
   }
 }
 
 @media (min-width: 414px) {
   .heroImage {
     background:  transparent url('../img/heroImage-mobile3.jpg') no-repeat;
-    height: 676px;
+    height: 736px;
   }
 }
 
 @media (min-width: 768px) {
   .heroImage {
     background:  transparent url('../img/heroImage-tablet.jpg') no-repeat;
-    height: 965px;
+    height: 1024px;
   }
 }
