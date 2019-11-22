@@ -6,7 +6,7 @@ import '../nav/nav'
 function Card(props) {
   return(
     <div id={props.product.id} className="wapper-card" key={props.product.id}>
-      <button>
+      <button className="img__btn">
         <img className="card__img" src={props.product.image} alt={props.product.title} />
       </button>
       <h2 className="card__title">{props.product.title}</h2>

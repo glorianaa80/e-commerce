@@ -1,0 +1,27 @@
+.select {
+  align-self: center;
+	appearance:none;
+  background: transparent url('../img/arrow.svg') no-repeat;
+  border: none;
+	cursor:pointer;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px;
+  -moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+	-o-appearance:none;
+}
+
+.select-artist {
+  background-position-x: 80px;
+  background-position-y: 11px;
+  width: 97px;
+}
+
+.select-price {
+  background-position-x: 70px;
+  background-position-y: 11px;
+  width: 84px;
+}

@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.heroImage-check {
+  background:  transparent url('../img/ckeckout-mobile.jpg') no-repeat;
+  height: 265px;
+  width: 100%;
+}
+
 .header__title-magas {
   background: transparent url('../img/Maga’s-mobile.png') no-repeat;
   display: inline-block;
@@ -35,6 +41,12 @@
   margin: 0;
 }
 
+.title-check {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 20px;
+  margin: 0
+}
 
 /* Medias */
 @media (min-width: 375px) {
