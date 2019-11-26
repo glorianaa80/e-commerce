@@ -3,7 +3,6 @@ import Card from './components/card/card';
 import Search from './components/search/search';
 import json from './json/data.json';
 import Nav from './components/nav/nav';
-import Modal from './components/modal/modal';
 import './css/sort.css'
 const data = json.products;
 
@@ -11,13 +10,14 @@ class CardDisc extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: json.products,
+      json: json.products,
       cardTitle: [],
+      data: [],
       textSearch: '',
       count: 0,
       dataCar: [],
       isOldesFirst: true,
-      isShowing: false
+      isShowing: false,
     }
     this.filtrado = this.filtrado.bind(this);
     this.Plus = this.Plus.bind(this);
@@ -25,6 +25,7 @@ class CardDisc extends React.Component {
     this.closeModalHandler = this.closeModalHandler.bind(this);
     this.sortPrice = this.sortPrice.bind(this);
     this.togglePrice = this.togglePrice.bind(this);
+    this.toggleArtis = this.toggleArtis.bind(this);
   }
 
   filtrado(e) {
@@ -41,13 +42,14 @@ class CardDisc extends React.Component {
   }
 
   Plus = (e) => {
-    const car = data[e.target.id]
+    const car = data[e.target.id];
     const NewDataCar = this.state.dataCar;
     NewDataCar.push(car)
     this.setState({
       count: this.state.count + 1,
       dataCar: NewDataCar
     })
+    console.log(NewDataCar)
   }
 
   openModalHandler = () => {
@@ -62,9 +64,9 @@ class CardDisc extends React.Component {
     });
   }
 
-  sortPrice() { 
+  sortPrice() {
     let newDataSort = data;
-    if (this.state.isOldesFirst ) {
+    if (this.state.isOldesFirst) {
       newDataSort = newDataSort.sort((a, b) => a.price - b.price).reverse()
     } else {
       newDataSort = newDataSort.sort((a, b) => b.price - a.price).reverse()
@@ -74,9 +76,17 @@ class CardDisc extends React.Component {
       dataSort: newDataSort
     })
   }
-
   togglePrice() {
     this.sortPrice()
+  }
+
+  toggleArtis(){
+    let newDataSortArtis = data;
+    newDataSortArtis.sort((a,b) => a.artist.localeCompare(b.artist));
+    this.setState({
+      isOldesFirst: !this.state.isOldesFirst,
+      dataSort: newDataSortArtis
+    })
   }
 
   render() {
@@ -87,17 +97,13 @@ class CardDisc extends React.Component {
         <div className="wapper">
           <span className="deco-img">Disco con cara de mujer afroamericana</span>
           <button className="select select-price" onClick={this.togglePrice}>Price</button>
-          <button className="select select-artist">Artist</button>
+          <button className="select select-artist" onClick={this.toggleArtis} >Artist</button>
         </div>
         <Nav inner={this.state.count} />
         <Search value={this.state.text} onChange={this.filtrado} />
         {
-          arrayMatch.length ? arrayMatch.map(c => <Card onClick={this.Plus} product={c} />) :
-            arrayAll.map(c => <Card onClick={this.Plus} product={c} />)
-        }
-
-        {
-          arrayAll.map(c => <Modal className="modal" show={this.state.isShowing} close={this.closeModalHandler} product={c} />)
+          arrayMatch.length ? arrayMatch.map(c => <Card showModal={this.openModalHandler} onClick={this.Plus} product={c} />) :
+            arrayAll.map(c => <Card showModal={this.openModalHandler} onClick={this.Plus} product={c} close={this.closeModalHandler} show={this.state.isShowing} />)
         }
       </div>
     )

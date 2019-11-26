@@ -1,7 +1,8 @@
 import React from 'react';
 import ListCheck from '../render-check';
 import '../css/heroImage.css';
-import '../css/checkout.css'
+import '../css/checkout.css';
+import '../render-home'
 
 
 export default () => {

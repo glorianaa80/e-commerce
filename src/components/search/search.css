@@ -46,3 +46,14 @@ form {
     width: 285px;
   }
 }
+
+@media (min-width: 1440px) {
+  form {
+    text-align: center;
+  }
+
+  .search {
+    font-size: 30px;
+    width: 470px;
+  }
+}

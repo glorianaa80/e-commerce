@@ -12,6 +12,7 @@
   color: #fff;
   font-size: 16px;
   height: 35px;
+  margin-left: 102px;
   margin-top: 20px;
   width: 117px;
 }
@@ -25,18 +26,21 @@
   margin: 0;
   padding-top: 10px;
   font-size: 15px;
+  text-align: center;
 }
 
 .card__price {
   margin: 0;
   padding-top: 10px;
   font-size: 15px;
+  text-align: center;
 }
 
 .card__title {
   margin: 0;
   padding-top: 10px;
   font-size: 17px;
+  text-align: center;
 }
 
 .card__title-btn {
@@ -46,26 +50,65 @@
 }
 
 .img__btn {
+  background: transparent;
+  border: 0;
   cursor: pointer;
+  margin-left: 39px;
 }
 
 .wapper-card {
   font-family: 'Libre Franklin', sans-serif ;
   margin: 20px 0 40px 0;
-  text-align: center;
 }
 
 
 
 /* Medias */
 @media (min-width: 768px) {
+  .card__btn {
+    font-size: 23px;
+    margin-left: 180px;
+    width: 200px;
+  }
+
+  .card__img {
+    width: 500px;
+  }
+
+  .card__sdTitle {
+    font-size: 20px;
+  }
+
+  .card__price {
+    font-size: 20px;
+  }
+
+  .card__title {
+    font-size: 30px;
+  }
+
   .wapper-card {
     display: inline-block;
-    padding: 50px 55px 50px 100px;
+    padding: 50px 55px 50px 88px;
+  }
+
+  .wapper-card + .wapper-card {
+    display:block;
+    padding: 10px 55px 50px 88px;
+  }
+}
+
+@media (min-width: 1440px){
+  .card__btn {
+    margin-left: 151px;
+  }
+
+  .img__btn {
+    margin-left: 0;
   }
 
   .wapper-card + .wapper-card {
     display: inline-block;
-    padding: 10px 55px 50px 78px;
+    padding: 19px 55px 50px 90px;
   }
 }

@@ -6,12 +6,12 @@
   padding-left: 12px;
 }
 
-.modal-wrapper {
+.modal-wapper {
   background: white;
   border: 1px solid #d0cccc;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
   transition: all .8s;
-  width: 100%;
+  width: 318px;
 }
 
 .modal-header {
@@ -20,10 +20,9 @@
   height: 103px;
   line-height: 26px;
   padding: 20px 15px;
-
 }
 
-.modal-header h3 {
+.info-header-title {
   border-bottom: 2px solid #F4A026;
   color: #000;
   margin: 0;
@@ -40,14 +39,23 @@
   padding: 25px 15px;
 }
 
+
+.modal-open {
+  display: block; 
+}
+
+.modal-close {
+  display: none;
+}
+
 .close-modal-btn {
+  bottom: 73px;
   color: #000000;
   cursor: pointer;
-  font-size: 30px;
   float: right;
+  font-size: 30px;
   margin: 0;
   position: relative;
-  bottom: 105px;
 }
 
 .close-modal-btn:hover {
@@ -68,4 +76,58 @@
 
 .pdg {
   padding-top: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .modal-wapper {
+    width: 580px;
+  }
+
+  .modal__img{
+    margin-left: 161px;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .close-modal-btn {
+    bottom: 190px;
+    float: right;
+    right: 100px;
+  }
+  
+  .des {
+    width: 800px;
+  }
+
+  .info-header-art {
+    font-size: 22px;
+  }
+
+  .info-header-code {
+    font-size: 22px;
+  }
+
+  .info-header-price {
+    font-size: 22px;
+  }
+
+  .info-header-title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .modal-header {
+    height: 172px;
+  }
+
+  .modal-wapper {
+    width: 1000px;
+  }
+
+  .modal__img{
+    margin-left: 244px;
+    width: 500px;
+  }
 }

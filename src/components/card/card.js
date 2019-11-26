@@ -1,13 +1,16 @@
 import React from 'react';
 import './card.css';
 import Disc from '../../img/disc.png'
-import '../nav/nav'
+import '../nav/nav';
+import Modal from '../modal/modal'
 
 function Card(props) {
+
   return(
     <div id={props.product.id} className="wapper-card" key={props.product.id}>
-      <button className="img__btn">
-        <img className="card__img" src={props.product.image} alt={props.product.title} />
+        <Modal close={props.close} show={props.show} product={props.product}/>
+      <button className="img__btn" onClick={props.showModal}>
+        <img id={props.product.indice}  className="card__img" src={props.product.image} alt={props.product.title} />
       </button>
       <h2 className="card__title">{props.product.title}</h2>
       <h4 className="card__sdTitle">{props.product.artist}</h4>

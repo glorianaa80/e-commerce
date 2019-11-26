@@ -69,3 +69,10 @@
     height: 1024px;
   }
 }
+
+@media (min-width: 1440px) {
+  .heroImage {
+    background:  transparent url('../img/heroImage-desktop.jpg') no-repeat;
+    height: 1024px;
+  }
+}

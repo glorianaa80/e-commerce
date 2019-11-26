@@ -3,14 +3,14 @@ import './modal.css';
 
 function Modal(props) {
   return (
-    <div className="modal-wrapper" style={{
-      // opacity: props.show ? '1' : '0'
+    <div id={props.product.indice} className="modal-wapper" style={{
+      display: props.show ? 'block' : 'none'
     }}>
       <div className="modal-header">
-        <h3 className="info-header title">{props.product.title}</h3>
-        <p className="info-header art">{props.product.artist}</p>
-        <p className="info-header code"> Code: {props.product.code}</p>
-        <p className="info-header price">${props.product.price}</p>
+        <h3 className="info-header-title">{props.product.title}</h3>
+        <p className="info-header-art">{props.product.artist}</p>
+        <p className="info-header-code"> Code: {props.product.code}</p>
+        <p className="info-header-price">${props.product.price}</p>
         <span className="close-modal-btn" onClick={props.close}>×</span>
       </div>
       <div className="modal-body">
