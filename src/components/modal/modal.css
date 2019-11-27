@@ -6,6 +6,10 @@
   padding-left: 12px;
 }
 
+.mrg {
+  margin: 0;
+}
+
 .modal-wapper {
   background: white;
   border: 1px solid #d0cccc;
@@ -49,7 +53,7 @@
 }
 
 .close-modal-btn {
-  bottom: 73px;
+  bottom: 176px;
   color: #000000;
   cursor: pointer;
   float: right;

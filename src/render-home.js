@@ -19,6 +19,7 @@ class CardDisc extends React.Component {
       isOldesFirst: true,
       isShowing: false,
     }
+    console.log(data)
     this.filtrado = this.filtrado.bind(this);
     this.Plus = this.Plus.bind(this);
     this.openModalHandler = this.openModalHandler.bind(this);

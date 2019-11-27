@@ -28,6 +28,37 @@
       "image": "https://i.imgur.com/DWSC9z3.jpg"
     },
     {
+      "artist": "Nirvana",
+      "category": "Vinils Disc - Alternative Rock - Grunge",
+      "side1": [
+        "Smells Like Teen Spirit",
+        "In Bloom",
+        "Come as You Are",
+        "Breed",
+        "Lithium",
+        "Polly"
+      ],
+      "side2": [
+        "Territorial Pissings",
+        "Drain You",
+        "Lounge Act",
+        "Stay Away",
+        "On a Plain",
+        "Something in the Way",
+        "Endless, Nameless"
+      ],
+      "code": 4827295,
+      "description": [
+        "It is the second studio album by the American grunge band Nirvana, released on September 24, 1991. Produced by Butch Vig, Nevermind was the band's first release with DGC Records. The leader of the group, Kurt Cobain, tried to make music outside the restrictive limits of the Seattle grunge scene, taking advantage of the influence of groups such as the Pixies and their use of the dynamics of loud and calm songs, with great compositions and sounds ."
+      ],
+      "id": 2,
+      "indice" : 1,
+      "price": 14.29,
+      "date": "24 September 1991",
+      "title": "Nevermind",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71DQrKpImPL._SL1400_.jpg"
+    },
+    {
       "artist": "Queen",
       "category": "Vinils Disc - Rock",
       "side1": [
@@ -51,12 +82,43 @@
       "description": [
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
-      "id": 2,
-      "indice" : 1,
+      "id": 3,
+      "indice" : 2,
       "price": 36.99,
       "date": "10 November 1978",
       "title": "Jazz",
       "image": "https://images-na.ssl-images-amazon.com/images/I/910MMMUg7sL._SL1400_.jpg"
+    },
+    {
+      "artist": "Guns N' Roses",
+      "category": "Vinils Disc - Hard rock - Sleaze Rock - Heavy metal",
+      "side1": [
+        "Welcome to the Jungle",
+        "It's So Easy",
+        "Nightrain",
+        "Out Ta Get Me",
+        "Mr. Brownstone",
+        "Paradise City"
+      ],
+      "side2": [
+        "My Michelle",
+        "Think About You",
+        "Sweet Child o' Mine",
+        "You're Crazy",
+        "Anything Goes",
+        "Rocket Queen"
+      ],
+      "code": 4827295,
+      "description": [
+        "It is the debut album of the American hard rock band Guns N 'Roses, was published by the record company Geffen Records on July 21, 1987, after their self-released Live?! * @ Like a Suicide. It achieved massive worldwide success after its launch. ",
+        "He managed to reach the first position on the Billboard charts in the United States where he was certified 28 times platinum disc and 10 diamond disc, also reached number one in much of the rest of the world, as in the United Kingdom, Canada, New Zealand, Australia, Ireland, Germany and the Netherlands, places where the album was certified triple platinum and eightfold diamond disc; while in Switzerland, Poland, Slovenia, Russia, Ukraine and Japan it achieved certification of platinum x 16 and diamond × 4."
+      ],
+      "id": 4,
+      "indice" : 3,
+      "price": 84.29,
+      "date": "21 July 1987",
+      "title": "Appetite for Destruction",
+      "image": "https://i.pinimg.com/originals/21/68/3c/21683c70d331829dbb1448ffb5e5e205.jpg"
     },
     {
       "artist": "Pink Floyd",
@@ -81,8 +143,8 @@
         "It is the fourteenth studio album by British progressive rock band Pink Floyd. In the United Kingdom it was released on March 28, 1994, through the company EMI Records, and in the United States a week later, through Columbia Records. It is the second studio album published since the departure of the original bassist and founding member Roger Waters.",
         "Composed mostly by guitarist David Gilmour and keyboardist Richard Wright, the central theme of the album is communication between people, or lack thereof, accompanied by other related topics such as isolation, ambiguity, confrontation or self defense."
       ],
-      "id": 3,
-      "indice" : 2,
+      "id": 5,
+      "indice" : 4,
       "price": 25.99,
       "date": "28 March 1994",
       "title": "The Division Bell",
@@ -111,12 +173,41 @@
       "description": [
         "The album, although showing the development of the talents of the group's composers, maintained the structure of songs and instrumentation of basic rock and roll. It was the first album of the group to contain only original compositions and the only one in which the musical catalog was signed entirely by Lennon-McCartney. Normally, Paul McCartney and John Lennon contribute equally with their songs in the making of each album of The Beatles, but in A Hard Day's Night Lennon's authorship in the composition of the songs was predominant, being responsible for the majority of the thirteen songs that were presented on this album."
       ],
-      "id": 4,
-      "indice" : 3,
+      "id": 6,
+      "indice" : 5,
       "price": 50.99,
       "date": "10 July 1964",
       "title": "A Hard Day’s Night",
       "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/09/17/17/7.-a-hard-days-night.jpg"
+    },
+    {
+      "artist": "Blondie",
+      "category": "Vinils Disc - Rock - Pop - New Wave - Punk",
+      "side1": [
+        "X Offender",
+        "Little Girl Lies",
+        "In The Flesh",
+        "Look Good In Blue",
+        "In The Sun"
+      ],
+      "side2": [
+        "A Shark In Jets Clothing",
+        "Man Overboard",
+        "Rip Her To Shreads",
+        "Rifle Range",
+        "Kung Fu Girls",
+        "The Attack Of The Giant Ants"
+      ],
+      "code": 4586176,
+      "description": [
+        "Originally released on Private Stock in January of 1977, although test pressings date from December of 1976 and some may have been sent out as promos at that time. Chrysalis bought out their contract in August of 1977 so they repressed it after that time."
+      ],
+      "id": 7,
+      "indice" : 6,
+      "price": 45.99,
+      "date": "2 December 1976",
+      "title": "Blondie",
+      "image": "https://cdn.hmv.com/r/w-1640/p-webp/getattachment/373615c1-be91-41fd-b264-b7288ef5d765/mus000435330-1.jpg"
     },
     {
       "artist": "Queen",
@@ -139,12 +230,68 @@
         "Island Records re-releases the five Queen albums of this era on September 5 (coinciding with the date that Freddie Mercury would have turned 65) as part of the band's 40th anniversary celebrations: 'The Works',' A Kind Of Magic ',' The Miracle ',' Innuendo 'and' Made In Heaven '. The new releases will be accompanied by the third installment of the series 'Queen: Deep Cuts', which includes some of the lesser known songs from these albums.",
         "Many of Queen's favorite tracks were released in this period, including 'Radio Gaga' (the theme from which Lady Gaga got her name), 'I Want To Break Free' (accompanied by the famous video where transvestites parodied Coronation Street and that the MTV banned in the US), 'One Vision', 'A Kind of Magic', 'I Want It All', 'The Miracle' and 'These Are The Days of Our Lives' (which includes the unforgettable last appearance of Freddie on video)."
       ],
-      "id": 5,
-      "indice" : 4,
+      "id": 8,
+      "indice" : 7,
       "price": 41.99,
       "date": "27 Febrary 1984",
       "title": "The Works",
       "image": "https://xn--rckn8au6k165rwj1cfa5765c2d3a.com/blog/wp-content/uploads/2018/12/queen-the-works.jpg"
+    },
+    {
+      "artist": "ABBA",
+      "category": "Vinils Disc - Pop - Europop - Pop Sueco",
+      "side1": [
+        "Mamma Mia",
+        "Hey, Hey, Helen",
+        "Tropical Loveland",
+        "S.O.S.",
+        "Bang-A-Boomerang"
+      ],
+      "side2": [
+        "I Do, I Do, I Do, I Do, I Do",
+        "Rock Me",
+        "Intermezzo No. 1",
+        "I've Been Waiting For You",
+        "So Long"
+      ],
+      "code": 2635745,
+      "description": [
+        "It is the name of the third studio album of the group of the same name, released in April 1975. Three of the published singles of the album returned to the group the success obtained with their song 'Waterloo', reaching the top of the British and Australian charts."
+      ],
+      "id": 9,
+      "indice" : 8,
+      "price": 79.50,
+      "date": "21 Aprl 1975",
+      "title": "ABBA",
+      "image": "https://shop.abbathemuseum.com/app/uploads/2019/08/ABBA-The-Album-poster.jpg"
+    },
+    {
+      "artist": "The Police",
+      "category": "Vinils Disc - New Wave - Pop Rock",
+      "side1": [
+        "Next To You",
+        "So Lonely",
+        "Roxanne",
+        "Hole In My Life",
+        "Peanuts"
+      ],
+      "side2": [
+        "Can't Stand Losing You",
+        "Truth Hits Everybody",
+        "Born In The 50's",
+        "Be My Girl - Sally",
+        "Masoko Tanga"
+      ],
+      "code": 2635745,
+      "description": [
+        "It is the debut album of the band The Police, released in 1978, also being one of the most representative works of the group."
+      ],
+      "id": 10,
+      "indice" : 9,
+      "price": 79.57,
+      "date": "2 November 1978",
+      "title": "Outlandos d'Amour",
+      "image": "https://images.reverb.com/image/upload/s--6wZPtVXk--/f_auto,t_supersize/v1560997210/ejyrux5beta8stkfl49o.jpg"
     },
     {
       "artist": "The Rolling Stones",
@@ -173,9 +320,9 @@
       "description": [
         "It is a compilation album of the Rolling Stones, released on April 19, 2019 through Promotone BV and Universal Music. It has tracks from each of his studio albums since 1971. Honk includes the 18 tracks of the 1993 &#34;Jump Back&#34; compilation. The standard edition includes 36 tracks, while the deluxe edition adds 10 additional tracks from recent live recordings."
       ],
-      "id": 6,
+      "id": 11,
+      "indice" : 10,
       "price": 51.99,
-      "indice" : 5,
       "date": "19 April 2019",
       "title": "Honk",
       "image": "https://i.imgur.com/EmHFZR8.jpg"
@@ -195,8 +342,8 @@
       "description": [
         "It is the second Pink Floyd album to use a conceptual theme written entirely by Waters, and evokes his feeling that the camaraderie that had once been felt among the band members, had long been absent. instrumental introduction of eight and a half minutes, before starting with &#34;Shine On You Crazy Diamond&#34;. This is a tribute to the former band member Syd Barrett, forced to leave the band due to a nervous breakdown due to drug use that caused him mental problems a few years earlier."
       ],
-      "id": 7,
-      "indice" : 6,
+      "id": 12,
+      "indice" : 11,
       "price": 30.99,
       "date": "12 September 1975",
       "title": "Wish You Were Here",
@@ -225,12 +372,43 @@
         "A special box of the historic 1977 Queen album News of the World is here, marking the 40th anniversary of the original release.The new package includes the original album on CD, plus two additional CDs of extractions and oddities recently discovered from the band's archives, one of which is a newly created 'alternative' version of the entire album: Raw Sessions.",
         "Another outstanding feature of this heavy 40th anniversary box is a new pure analog cut of the original vinyl LP, directly from the non-mastered analog master mix tapes. There is also a rich selection of NOTW-related memories that include three posters and a 60-page picture book, mostly never seen before."
       ],
-      "id": 8,
-      "indice" : 7,
+      "id": 13,
+      "indice" : 12,
       "price": 145.99,
       "release-date": "28 October 1977",
       "title": "News of the World",
       "image": "http://image.iheart.com/ihr-ingestion-pipeline-production-umg/bypass/redelivery/NEW_CONTENT_RADIO/00050087245429_20180721043802288/00050087245429_T1_cvrart.jpg"
+    },
+    {
+      "artist": "Elvis Presley",
+      "category": "Vinils Disc - Rock and Roll - Country - Rockabilly",
+      "side1": [
+        "Blue Suede Shoes",
+        "I'm Counting on You",
+        "I Got A Woman",
+        "One-Sided Love Affair",
+        "I Love You Because",
+        "Just Because"
+      ],
+      "side2": [
+        "Tutti Frutti",
+        "Trying to Get to You",
+        "I'm Gonna Sit Right Down and Cry (Over You)",
+        "I'll Never Let You Go (Lil' Darlin')",
+        "Blue Moon",
+        "Money Honey"
+      ],
+      "code": 7649841,
+      "description": [
+        "It is Elvis Presley's debut album on RCA Records, with catalog number LPM 1254, which appeared in March 1956. The content was recorded at the Sun Records studios in Memphis, at the RCA Nashville studios in mid-January and at the RCA New York studios at the end of January.",
+        "The album managed to stay ten weeks in the Billboard Top Pop Albums list that year. In 2003, Rolling Stone magazine placed it in position 55 of its list of the 500 best albums in all history, and it is also the second album listed in the book 1001 Albums You Must Hear Before You Die by Robert Dimery."
+      ],
+      "id": 14,
+      "indice" : 13,
+      "price": 10.58,
+      "date": "23 March 1956",
+      "title": "Elvis Presley",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71Zr%2Bdtp0SL._SL1500_.jpg"
     },
     {
       "artist": "Queen",
@@ -253,12 +431,43 @@
       "description": [
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
-      "id": 9,
-      "indice" : 8,
+      "id": 15,
+      "indice" : 14,
       "price": 30.99,
       "date": "12 July 1973",
       "title": "Queen",
       "image": "https://rockntipo.com/26866/18618.jpg"
+    },
+    {
+      "artist": "Blondie",
+      "category": "Vinils Disc - New Wave - Punk Rock",
+      "side1": [
+        "Hanging On The Telephone",
+        "One Way Or Another",
+        "Picture This",
+        "Fade Away And Radiate",
+        "Pretty Baby",
+        "I Know But I Don't Know"
+      ],
+      "side2": [
+        "11:59",
+        "Will Anything Happen",
+        "Sunday Girl",
+        "Heart Of Glass",
+        "I'm Gonna Love You Too",
+        "Just Go Away"
+      ],
+      "code": 7841526,
+      "description": [
+        "The first single contains the two versions of the band The Nerves included in it, such as A Hanging on the Telephone and B Will Anything Happen?, And then edit almost all the songs on the album in different singles, show that few bands can be allowed.",
+        "Stresses the single that contains Heart of Glass, a song that definitely transports Blondie, already in 1979, from the tracks of the CBGB club to those of Studio 54, placing them at the top of popularity at all levels."
+      ],
+      "id": 16,
+      "indice" : 15,
+      "price": 27.29,
+      "date": "23 September 1978",
+      "title": "Parallel Lines",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71JiNL4zuRL._SL1500_.jpg"
     },
     {
       "artist": "Pink Floyd",
@@ -278,8 +487,8 @@
         "It is the sixth studio album by British progressive rock band Pink Floyd, released in October 1971. It was recorded in several recording studios in the London area, including Abbey Road Studios. Without new material to work with and without having a clear idea of the direction they wanted the album to take, the band developed a series of novel experiments that finally served as inspiration for the best known track on the album, &#34;Echoes.&#34; Although many of the group's subsequent albums focused on a unique theme with lyrics written mostly by Roger Waters, Meddle was a group effort with lyrical contributions from each member.",
         "It was recorded and produced from January to August 1971 among the obligations of the tours. The reviews of music critics were relatively good for this work. The disc was a commercial success in the United Kingdom, however, in the USA. The mediocre publicity of his American distributor led him to be a sales failure in that country."
       ],
-      "id": 10,
-      "indice" : 9,
+      "id": 17,
+      "indice" : 16,
       "price": 35.99,
       "date": "31 October 1971",
       "title": "Meddle",
@@ -307,12 +516,72 @@
       "description": [
         "The latest set of vinyl LPs, the complete collection of Queen's studio albums, remastered to the highest standards of quality in both audio and artwork."
       ],
-      "id": 11,
-      "indice" : 10,
+      "id": 18,
+      "indice" : 17,
       "price": 36.99,
       "date": "21 May 1982",
       "title": "Hot Space",
       "image": "https://cdn.vox-cdn.com/thumbor/0c6Ia8IW4Y2gm2FDstJgpukBGec=/0x0:945x945/920x0/filters:focal(0x0:945x945):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13355399/hot_space.jpg"
+    },
+    {
+      "artist": "Bon Jovi",
+      "category": "Vinils Disc - Hard rock - Glam Metal",
+      "side1": [
+        "Lay Your Hands on Me",
+        "Bad Medicine",
+        "Born to Be My Baby",
+        "Living in Sin",
+        "Blood on Blood",
+        "Homebound Train"
+      ],
+      "side2": [
+        "Wild Is the Wind",
+        "Ride Cowboy Ride",
+        "Stick to Your Guns",
+        "I'll Be There for You",
+        "99 in the Shade",
+        "Love for Sale"
+      ],
+      "code": 8746496,
+      "description": [
+        "It is the fourth studio album by the American rock group Bon Jovi, released to the market by Mercury Records on September 19, 1988. The album was produced by Bruce Fairbairn and recorded at the 'Little Mountain Sound' studios in Vancouver, Canada.",
+        "New Jersey debuted in the eighth position of the Billboard 200 in the United States, reaching the top of the list in its second week for four consecutive weeks. The album has been certified seven times platinum by the Recording Industry Association of America (RIAA) after sales of 7 million copies in the United States alone."
+      ],
+      "id": 19,
+      "indice" : 18,
+      "price": 7.55,
+      "date": "19 September 1988",
+      "title": "New Jersey",
+      "image": "https://d.newsweek.com/en/full/893848/new-jersey.jpg?w=1600&h=1600&q=88&f=dde0a00852bba14eb77344cbe798be4b"
+    },
+    {
+      "artist": "KISS",
+      "category": "Vinils Disc - Hard rock - Heavy Metal",
+      "side1": [
+        "Strutter",
+        "Nothin' to Lose",
+        "Firehouse",
+        "Let Me Know",
+        "Cold Gin"
+      ],
+      "side2": [
+        "Kissin' Time",
+        "Deuce",
+        "Love Theme from Kiss",
+        "100,000 Years",
+        "Black Diamond"
+      ],
+      "code": 7583656,
+      "description": [
+        "It is the debut album of the American hard rock band of the same name, released in 1974. When it was released, Kiss was barely a year old. Most of the album material was written by Gene Simmons and Paul Stanley, as members of Wicked Lester, the first incarnation of Kiss.",
+        "Kiss sold approximately 75,000 copies after its initial release to the market, without the presence of a single 'hit'. The album was re-released in 1997 on CD (along with most of Kiss's first albums), in remastered version. He was certified 'Gold' on June 8, 1977, when he reached 500,000 copies sold."
+      ],
+      "id": 20,
+      "indice" : 19,
+      "price": 18.50,
+      "date": "8 Febrary 1975",
+      "title": "KISS",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-134748-20140320-kiss5-x1800-1395347685-50dbd7d5-336d-49f8-afce-3124ac2fa024.jpg"
     }
   ]
 }
