@@ -1,9 +1,8 @@
 .btn__img {
   position: relative;
   top: 3px;
-  left: 12px;
+  left: 6px;
 }
-
 
 .card__btn {
   background-color: #F4A026;
@@ -12,9 +11,9 @@
   color: #fff;
   font-size: 16px;
   height: 35px;
-  margin-left: 102px;
+  margin-left: 100px;
   margin-top: 20px;
-  width: 117px;
+  width: 130px;
 }
 
 .card__img {

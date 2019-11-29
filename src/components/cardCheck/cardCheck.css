@@ -1,0 +1,109 @@
+.cardCheck__btn {
+  background-color: #F4A026;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-size: 12px;
+  height: 27px;
+  margin-top: 30px;
+  width: 58px;
+}
+
+.cardCheck__code {
+  font-size: 11px;
+}
+
+.cardCheck__img {
+  width: 75px;
+  padding-left: 10px;
+}
+
+.cardCheck__price {
+  color: #F4A026;
+  font-size: 15px;
+  margin: 0;
+}
+
+.cardCheck__sdTitle {
+  font-size: 11px;
+}
+
+.cardCheck__title {
+  font-size: 13px;
+  margin: 0;
+}
+
+.wapper-cardCheck {
+  margin-top: 50px;
+}
+
+.wapper-price {
+  float: right;
+  padding-right: 10px;
+}
+
+.wapper-titles {
+  display: inline-block;
+  padding-left: 5px;
+  vertical-align: top;
+}
+
+
+
+@media (min-width: 768px) {
+  .cardCheck__btn {
+    font-size: 20px;
+    height: 41px;
+    margin-top: 100px;
+    width: 159px;
+  }
+  .cardCheck__code {
+    font-size: 16px;
+  }
+  .cardCheck__img {
+    width: 176px;
+    padding-left: 25px;
+  }
+  .cardCheck__price {
+    font-size: 25px;
+    margin-left: 39px;
+  }
+  .cardCheck__title {
+    font-size: 25px;
+  }
+  .cardCheck__sdTitle {
+    font-size: 16px;
+  }
+  .wapper-cardCheck {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cardCheck__btn {
+    height: 80px;
+    width: 200px;
+  }
+  .cardCheck__code {
+    font-size: 25px;
+  }
+  .cardCheck__img {
+    width: 341px;
+    padding-left: 150px;
+  }
+  .cardCheck__price {
+    font-size: 35px;
+  }
+  .cardCheck__title {
+    font-size: 35px;
+  }
+  .cardCheck__sdTitle {
+    font-size: 25px;
+  }
+  .wapper-price {
+    padding-right: 160px;
+  }
+  .wapper-titles {
+    padding-left: 40px;
+  }
+}

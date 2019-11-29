@@ -5,6 +5,53 @@
   color: #fff;
   font-size: 12px;
   height: 27px;
-  margin: 0 auto;
+  margin: 40px 0 30px 100px;
   width: 114px;
+}
+
+.wapper-total {
+  margin-top: 56px;
+  margin-left: 37px;
+}
+
+.totalPrice {
+  margin-left: 130px;
+  color: #F4A026;
+}
+
+@media (min-width: 768px) {
+  .check-btn {
+    font-size: 20px;
+    height: 41px;
+    margin: 70px 0 30px 300px;
+    width: 159px;
+  }
+  .sbTotal {
+    font-size: 25px;
+  }
+  .totalPrice {
+    font-size: 25px;
+  }
+  .wapper-total {
+    margin-top: 100px;
+    margin-left: 210px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .check-btn {
+    font-size: 40px;
+    height: 103px;
+    margin-left: 600px;
+    width: 273px;
+  }
+  .sbTotal {
+    font-size: 35px;
+  }
+  .totalPrice {
+    font-size: 35px;
+  }
+  .wapper-total {
+    margin-left: 560px;
+  }
 }

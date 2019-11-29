@@ -1,3 +1,12 @@
+.deco-img {
+  display: inline-block;
+  margin: 0; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 50px;
+  white-space: nowrap;
+}
+
 .img-arrow__artist {
   position: relative;
   top: -2px;
@@ -10,14 +19,11 @@
   right: 15px;
 }
 
-.deco-img {
-  background: transparent url('../img/nav-mobile.png') no-repeat;
-  display: inline-block;
-  margin: 0; 
-  overflow: hidden;
-  text-indent: 100%;
-  width: 50px;
-  white-space: nowrap;
+.nullData {
+  color: #F4A026;
+  font-size: 4rem;
+  padding: 10%;
+  text-align: center;
 }
 
 .wapper {
@@ -36,7 +42,6 @@
 /* Medias */
 @media (min-width: 768px) {
   .deco-img {
-    background: transparent url('../img/nav-tablet.png') no-repeat;
     width: 111px;
   }
 
@@ -65,7 +70,6 @@
 
 @media (min-width: 1440px) {
   .deco-img {
-    background: transparent url('../img/nav-dektop.png') no-repeat;
     width: 139px;
   }
 

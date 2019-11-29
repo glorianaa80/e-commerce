@@ -1,8 +1,8 @@
 import React from 'react';
 import './card.css';
-import Disc from '../../img/disc.png'
 import '../nav/nav';
-import Modal from '../modal/modal'
+import Modal from '../modal/modal';
+import Disc from '../../img/disc.png'
 
 function Card(props) {
 
@@ -15,8 +15,8 @@ function Card(props) {
       <h2 className="card__title">{props.product.title}</h2>
       <h4 className="card__sdTitle">{props.product.artist}</h4>
       <p className="card__price">${props.product.price}</p>
-      <button id={props.product.indice} onClick={props.onClick} className="card__btn">To Buy 
-        <img className="btn__img" src={Disc} alt="" aria-hidden="true"/>
+      <button id={props.product.indice} className="card__btn" onClick={props.onClick}> Add to bag
+      <img className="btn__img" src={Disc} alt="" aria-hidden="true"/>
       </button>
     </div>
   )

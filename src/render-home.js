@@ -3,8 +3,12 @@ import Card from './components/card/card';
 import Search from './components/search/search';
 import json from './json/data.json';
 import Nav from './components/nav/nav';
-import './css/sort.css'
+import './css/sort.css';
+import DecoImage from './img/decoImg.png';
 const data = json.products;
+
+const getCount = JSON.parse(localStorage.getItem('Count'));
+
 
 class CardDisc extends React.Component {
   constructor(props) {
@@ -19,7 +23,6 @@ class CardDisc extends React.Component {
       isOldesFirst: true,
       isShowing: false,
     }
-    console.log(data)
     this.filtrado = this.filtrado.bind(this);
     this.Plus = this.Plus.bind(this);
     this.openModalHandler = this.openModalHandler.bind(this);
@@ -44,13 +47,15 @@ class CardDisc extends React.Component {
 
   Plus = (e) => {
     const car = data[e.target.id];
-    const NewDataCar = this.state.dataCar;
-    NewDataCar.push(car)
+    let NewDataCar = this.state.dataCar;
+    NewDataCar.push(car);
+    localStorage.setItem('CarData', JSON.stringify(NewDataCar));
+    const totalCount = this.state.count + 1;
+    localStorage.setItem('Count', JSON.stringify(totalCount));
     this.setState({
-      count: this.state.count + 1,
+      count: totalCount,
       dataCar: NewDataCar
     })
-    console.log(NewDataCar)
   }
 
   openModalHandler = () => {
@@ -96,11 +101,11 @@ class CardDisc extends React.Component {
     return (
       <div>
         <div className="wapper">
-          <span className="deco-img">Disco con cara de mujer afroamericana</span>
+          <img className="deco-img" src={DecoImage} alt="" aria-hidden="true"/>
           <button className="select select-price" onClick={this.togglePrice}>Price</button>
           <button className="select select-artist" onClick={this.toggleArtis} >Artist</button>
         </div>
-        <Nav inner={this.state.count} />
+        <Nav inner={getCount}/>
         <Search value={this.state.text} onChange={this.filtrado} />
         {
           arrayMatch.length ? arrayMatch.map(c => <Card showModal={this.openModalHandler} onClick={this.Plus} product={c} />) :

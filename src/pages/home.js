@@ -15,10 +15,7 @@ class Home extends React.Component {
     return (
       <div className="App">
         <div className="heroImage">
-          <h1 className='title'>
-            <span className="header__title-magas">Maga's</span>
-            <span className="header__title-vinals">Vinals</span>
-          </h1>
+          <h1 className='title'>Maga's Vinals</h1>
         </div>
         <CardDisc />
       </div>

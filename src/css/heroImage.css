@@ -1,44 +1,32 @@
 .heroImage {
-  background:  transparent url('../img/heroImage-mobile1.jpg') no-repeat;
+  background:  transparent url('../img/heroImage.png') no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 568px;
   width: 100%;
 }
 
 .heroImage-check {
-  background:  transparent url('../img/ckeckout-mobile.jpg') no-repeat;
+  background:  transparent url('../img/heroImage-check.png') no-repeat;
+  background-position-x: 100%;
+  background-size: contain;
   height: 265px;
   width: 100%;
 }
 
-.header__title-magas {
-  background: transparent url('../img/Maga’s-mobile.png') no-repeat;
-  display: inline-block;
-  left: 21px;
-  margin: 0; 
-  overflow: hidden;
-  position: relative;
-  text-indent: 100%;
-  top: 25px;
-  width: 40%;
-  white-space: nowrap;
-
-}
-
-.header__title-vinals {
-  background: transparent url('../img/Vinals-mobile.png') no-repeat;
-  display: inline-block;
-  margin: 0; 
-  left: -78px;
-  overflow: hidden;
-  position: relative;
-  text-indent: 100%;
-  top: 65px;
-  width: 30%;
-  white-space: nowrap;
-}
-
 .title {
-  margin: 0;
+  background: transparent url('../img/Magas-Vinials.png') no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 60px;
+  left: 24px;
+  margin: 0; 
+  overflow: hidden;
+  position: relative;
+  text-indent: 100%;
+  top: 30px;
+  white-space: nowrap;
+  width: 30%;
 }
 
 .title-check {
@@ -51,22 +39,30 @@
 /* Medias */
 @media (min-width: 375px) {
   .heroImage {
-    background:  transparent url('../img/heroImage-mobile2.jpg') no-repeat;
     height: 667px;
+  }
+  .title {
+    height: 72px;
   }
 }
 
 @media (min-width: 414px) {
   .heroImage {
-    background:  transparent url('../img/heroImage-mobile3.jpg') no-repeat;
     height: 736px;
   }
 }
 
 @media (min-width: 768px) {
   .heroImage {
-    background:  transparent url('../img/heroImage-tablet.jpg') no-repeat;
     height: 1024px;
+  }
+  .heroImage-check {
+    height: 819px;
+  }
+  .title {
+    height: 141px;
+    left: 42px;
+    top: 44px;
   }
 }
 
@@ -74,5 +70,19 @@
   .heroImage {
     background:  transparent url('../img/heroImage-desktop.jpg') no-repeat;
     height: 1024px;
+  } 
+  .heroImage-check {
+    background:  transparent url('../img/heroImage-checkDesktop.png') no-repeat;
+    background-position-x: 80%;
+    background-position-y: 100px;
+    height: 758px;
+    width: 100%;
+  }
+  .title {
+    background-size: cover;
+    height: 300px;
+    left: 82px;
+    top: 233px;
+    width: 32%;
   }
 }
