@@ -4,6 +4,8 @@ import CardCheck from './components/cardCheck/cardCheck';
 const getDataCheck = JSON.parse(localStorage.getItem('CarData'));
 const getCount = JSON.parse(localStorage.getItem('Count'));
 let index = -1;
+
+
 const f = getDataCheck.reduce((acomulador, piloto) => acomulador + piloto.price, 0);
 console.log(f)
 

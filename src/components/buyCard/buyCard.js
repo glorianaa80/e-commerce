@@ -1,6 +1,5 @@
 import React from 'react'
 import { StripeProvider, Elements } from 'react-stripe-elements';
-import { CardElement, injectStripe, ReactStripeElements } from 'react-stripe-elements';
 import BuyModal from '../buyModal/buyModal';
 
 class BuyCard extends React.Component {
